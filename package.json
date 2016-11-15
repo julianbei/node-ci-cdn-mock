@@ -1,0 +1,13 @@
+{
+  "name": "node-cdn-mock",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-static": "^2.0.0"
+  },
+  "devDependencies": {}
+}
