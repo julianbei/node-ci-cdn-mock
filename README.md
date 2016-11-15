@@ -20,7 +20,7 @@ cdn:
 ## Usage:
 Build your own dockerfile and start it with:
 ```Dockerfile
-FROM julianbei/node-ci-cdn-mock
+FROM julianbei/node-ci-cdn-mock:latest
 
 COPY . .
 RUN yarn
