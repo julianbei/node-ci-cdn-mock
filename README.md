@@ -19,8 +19,8 @@ cdn:
 
 ## Usage:
 Build your own dockerfile and start it with:
-```
-FROM ... FIXME
+```Dockerfile
+FROM julianbei/node-ci-cdn-mock
 
 COPY . .
 RUN yarn
